@@ -11,4 +11,7 @@ public class loadscene : MonoBehaviour
     public void KeluarAplikasi(){
         Application.Quit();
     }
+    public void OpenLink(){
+        Application.OpenURL("https://drive.google.com/drive/folders/19LRGVHGDrFTK_on_DPRNEypSodmMEx9s?usp=share_link");
+    }
 }
